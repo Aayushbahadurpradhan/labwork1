@@ -1,3 +1,4 @@
+# the area of triangle
 h = int(input("enter height?"))
 b = int(input("enter base?"))
 area = 1/2*b*h
