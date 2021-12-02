@@ -1,3 +1,4 @@
+#sum of odd numbers
 num = 20
 sum = 0;
 
