@@ -1,4 +1,4 @@
 #sum of first ten even number
-num = [2, 4, 6, 8, 10]
+num =range(2, 11,2)
 sum = sum(num)
-print(sum)
+print(f"the sum of ten even number is {sum}")
