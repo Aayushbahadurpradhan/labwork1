@@ -3,4 +3,5 @@
 INT = int(input("enter integer:"))
 hours = INT // 60
 minutes = INT % 60
-print(hours,minutes)
+print(f"the hours is : {hours}")
+print(f" the minutes is : {minutes}")
