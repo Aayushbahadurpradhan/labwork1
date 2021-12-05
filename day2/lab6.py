@@ -1,4 +1,4 @@
- # You live 4 miles from university. The bus drives at 25mph but spends 2 minutes at each
+# You live 4 miles from university. The bus drives at 25mph but spends 2 minutes at each
 # of the 10 stops on the way. How long will the bus journey take? Alternatively, you could
 # run to university. You jog the first mile at 7mph; then run the next two at15mph; before
 # jogging the last at 7mph again. Will this be quicker or slower than the bus?
@@ -20,7 +20,9 @@ speed4 = 7
 timec = 1/speed4
 time_c = timec*60
 total_time_a = time_a+time_b+time_c
-print(f"the total time foe walking is {total_time_a}")
+print(f"the total time foot walking is {total_time_a}")
 
 if total_time_a>total_time:
     print(f"walking is faster to reach university")
+else:
+    print("going by bus is slower then running")
